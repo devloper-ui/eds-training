@@ -1,0 +1,113 @@
+.subscriptions-container {
+  max-width: 1200px !important;
+  margin: 60px auto !important;
+  padding: 0 20px !important;
+  box-sizing: border-box !important;
+}
+
+.subscriptions-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subscriptions-header h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.subscriptions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subscription-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  padding: 30px !important;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  box-sizing: border-box !important;
+}
+
+.subscription-card:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1) !important;
+  border-color: #cbd5e1 !important;
+}
+
+.subscription-plan-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 15px 0;
+}
+
+.price-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.price-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  height: 95px;
+  background: #eff6ff;
+  color: #0056b3;
+  font-size: 1.1rem;
+  font-weight: 800;
+  border-radius: 50%;
+  border: 2px solid #bfdbfe;
+  box-sizing: border-box;
+}
+
+.price-period {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.subscription-plan-features {
+  flex-grow: 1;
+}
+
+.subscription-plan-features ul {
+  padding-left: 20px;
+  margin: 0;
+  color: #475569;
+}
+
+.subscription-plan-features li {
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .subscriptions-grid {
+    grid-template-columns: 1fr;
+  }
+}

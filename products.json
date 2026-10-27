@@ -1,0 +1,23 @@
+{
+  "total": 15,
+  "offset": 0,
+  "limit": 15,
+  "data": [
+    { "image": "/icons/placeholder.png", "title": "Wireless Headphones", "company": "Acme Audio", "price": "129.00", "salePrice": "99.00" },
+    { "image": "/icons/placeholder.png", "title": "Running Shoes", "company": "Stride", "price": "140.00", "salePrice": "" },
+    { "image": "/icons/placeholder.png", "title": "Smart Watch", "company": "Tempo", "price": "220.00", "salePrice": "179.00" },
+    { "image": "/icons/placeholder.png", "title": "Backpack 30L", "company": "Trailhead", "price": "89.00", "salePrice": "69.00" },
+    { "image": "/icons/placeholder.png", "title": "Coffee Grinder", "company": "Barista Co", "price": "75.00", "salePrice": "" },
+    { "image": "/icons/placeholder.png", "title": "Desk Lamp", "company": "Lumen", "price": "55.00", "salePrice": "42.00" },
+    { "image": "/icons/placeholder.png", "title": "Bluetooth Speaker", "company": "Acme Audio", "price": "99.00", "salePrice": "79.00" },
+    { "image": "/icons/placeholder.png", "title": "Yoga Mat", "company": "Stride", "price": "45.00", "salePrice": "" },
+    { "image": "/icons/placeholder.png", "title": "Water Bottle 1L", "company": "Trailhead", "price": "30.00", "salePrice": "24.00" },
+    { "image": "/icons/placeholder.png", "title": "Mechanical Keyboard", "company": "Tempo", "price": "160.00", "salePrice": "139.00" },
+    { "image": "/icons/placeholder.png", "title": "Sunglasses", "company": "Lumen", "price": "120.00", "salePrice": "" },
+    { "image": "/icons/placeholder.png", "title": "Travel Mug", "company": "Barista Co", "price": "28.00", "salePrice": "22.00" },
+    { "image": "/icons/placeholder.png", "title": "Phone Stand", "company": "Tempo", "price": "20.00", "salePrice": "" },
+    { "image": "/icons/placeholder.png", "title": "Noise Cancelling Earbuds", "company": "Acme Audio", "price": "199.00", "salePrice": "149.00" },
+    { "image": "/icons/placeholder.png", "title": "Hiking Socks", "company": "Trailhead", "price": "18.00", "salePrice": "14.00" }
+  ],
+  ":type": "sheet"
+}
